@@ -1,0 +1,27 @@
+.star {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .star {
+    gap: 4px;
+  }
+
+  .row {
+    gap: 3px;
+  }
+}
